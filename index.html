@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>A Song of .Slice() and .Fire()</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- jQuery, Bootstrap, Popper --> 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Bootbox Library --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+        <!-- Game script --> 
+        <script src="script.js" async defer></script>
+    </head>
+    <body>
+      <div id="title">
+        <h1>A Song of .Slice() and .Fire():<br>
+        A JavaScript mini-RPG</h1>
+      </div> 
+      <div id="battleParentDiv">
+        <div id="battlePanels" style="display: flex; justify-content: space-around">
+          <div class="battlePanel" id="playerPanel">
+            <p><img id ='playerImage' src='https://i.imgur.com/vtoq5kz.png'></img></p>
+            <p>Ser <span id="heroName"></span></p>
+            <br>
+          </div>
+          <div class="battlePanel" id="battleLog">
+          </div>
+          <div class="battlePanel" id="enemyPanel">
+            <p><img id = 'enemyImage' src = 'https://i.imgur.com/aEm5aBn.png'></img></p>
+            <p><span id="enemyName"></span></p>
+            <br>
+          </div>
+        </div>
+        <br>
+        <div id="playerMenu">
+        <a href="#" class="button" id="play">PLAY</a>
+        <a href="#" class="button" id="credits">CREDITS</a>
+        </div>
+      </div>
+    </body>
+</html>

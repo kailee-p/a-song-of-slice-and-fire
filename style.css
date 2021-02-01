@@ -1,0 +1,71 @@
+/* title CSS */
+#title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* battle interface CSS */
+#battleParentDiv {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 80%;
+  border-color: #EB5E55;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.battlePanel {
+  display: inline-block;
+  text-align: center;
+}
+
+#playerPanel {
+  width: 15%;
+}
+
+#battleLog {
+  width: 60%;
+}
+
+#enemyPanel {
+  width: 15%;
+}
+
+/* menu and button functionality for player actions */
+#playerMenu {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #EB5E55;
+  border-top-style: solid;
+  border-top-color: #EB5E55;
+  border-top-width: 10px;
+}
+
+.button {
+  color: white;
+  background-color: #EB5E55;
+  padding: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.button:active {
+  background: #f29891;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
