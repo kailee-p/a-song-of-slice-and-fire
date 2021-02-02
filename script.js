@@ -8,7 +8,7 @@ play.addEventListener('click', () => {
 });
 
 credits.addEventListener('click', () => {
-  battleLog.innerHTML = 'Created by Billy Hepfinger, Kailee Pedersen, and Arthur Sato for CS Prep 39 using JavaScript, Bootstrap, and BootboxJS. Icons by Nikita Golubev on Flaticon (flaticon.com/authors/nikita-golubev).';
+  battleLog.innerHTML = 'Created by Billy Hepfinger, Kailee Pedersen, and Arthur Sato for CS Prep 39 using JavaScript, Bootstrap, and Bootbox.js. Icons by Nikita Golubev on Flaticon (flaticon.com/authors/nikita-golubev).';
 });
 
 //flow of battle counters
